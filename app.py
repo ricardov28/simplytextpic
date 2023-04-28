@@ -4,8 +4,8 @@ from azure.storage.blob import BlobServiceClient
 app = Flask(__name__)
 
 # Define the connection string and container name for your Azure Blob Storage
-connection_string = "your_connection_string"
-container_name = "your_container_name"
+connection_string = "DefaultEndpointsProtocol=https;AccountName=ricostgiot123;AccountKey=EPSmvTHdZpjeKfUQkxGKXLbkb4uvZRX0Gp2z0/A4ekRUXeR1FKuyKrA9di3ZT0sTy7tJgvyK12JG+AStenVmPw=="
+container_name = "messages01"
 
 # Define a function to get the URL of the latest image in the container
 def get_latest_image_url():
