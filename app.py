@@ -1,5 +1,6 @@
 from flask import Flask, send_file
 from azure.storage.blob import BlobServiceClient
+import azure
 
 app = Flask(__name__)
 
